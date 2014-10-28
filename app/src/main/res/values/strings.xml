@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flicki</string>
+    <string name="action_settings">Settings</string>
+    <string name="source_name">Flicki</string>
+    <string name="source_description">Display weather related photos around you.</string>
+    <string name="share">Share photo</string>
+    <string name="source_error_no_artwork_to_share">No photo to share.</string>
+
+</resources>
