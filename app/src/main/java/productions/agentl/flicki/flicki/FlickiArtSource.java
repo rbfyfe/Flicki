@@ -1,4 +1,4 @@
-package productions.agentl.flicki.flicki;
+package productions.agentl.flicki.flicki; //this is added by Flicki, edit when package is changed
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,7 +10,7 @@ import android.widget.Toast;
 import com.google.android.apps.muzei.api.Artwork;
 import com.google.android.apps.muzei.api.RemoteMuzeiArtSource;
 import com.google.android.apps.muzei.api.UserCommand;
-import productions.agentl.flicki.flicki.FlickiREST.Photo;
+import productions.agentl.flicki.flicki.FlickiREST.Photo; //this is added by Flicki, edit when package is changed
 
 import java.util.ArrayList;
 import java.util.List;
