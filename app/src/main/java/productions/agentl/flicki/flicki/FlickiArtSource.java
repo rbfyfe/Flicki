@@ -131,6 +131,12 @@ public class FlickiArtSource extends RemoteMuzeiArtSource {
         scheduleUpdate(ROTATE_TIME_MILLIS);
     }
 
+    /** Changes
+     *  Added FlickiREST in front of Photo(Why?)
+     *  
+     * 
+     */
+    
     private static FlickiREST.Photo selectRandomPhoto(String currentToken, List<FlickiREST.Photo> photoList) {
         Random random = new Random();
         FlickiREST.Photo photo;
