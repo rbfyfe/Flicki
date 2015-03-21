@@ -1,4 +1,4 @@
-package productions.agentl.flicki.flicki;
+package productions.agentl.flicki.flicki; //Change when we change package
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,10 +6,10 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import com.google.android.apps.muzei.api.RemoteMuzeiArtSource;
 import com.google.gson.Gson;
-import productions.agentl.flicki.flicki.FlickiREST.PersistedPhotosList;
-import productions.agentl.flicki.flicki.FlickiREST.Photo;
-import productions.agentl.flicki.flicki.FlickiREST.Photos;
-import productions.agentl.flicki.flicki.FlickiREST.PhotosResponse;
+import productions.agentl.flicki.flicki.FlickiREST.PersistedPhotosList; //Change when we change package
+import productions.agentl.flicki.flicki.FlickiREST.Photo; //Change when we change package
+import productions.agentl.flicki.flicki.FlickiREST.Photos; //Change when we change package
+import productions.agentl.flicki.flicki.FlickiREST.PhotosResponse; //Change when we change package
 import retrofit.ErrorHandler;
 import retrofit.RequestInterceptor;
 import retrofit.RestAdapter;
@@ -43,7 +43,8 @@ public class PhotosListLoader {
                 .setRequestInterceptor(new RequestInterceptor() {
                     @Override
                     public void intercept(RequestFacade request) {
-                        request.addQueryParam("api_key", "0952e1ceeeca7a0e1b3867533ba4beff");
+                                    // This is hard coded. Replaced big long hex from Config.API_KEY
+                        request.addQueryParam("api_key", "0952e1ceeeca7a0e1b3867533ba4beff");  
                     }
                 })
                 .setErrorHandler(new ErrorHandler() {
